@@ -11,7 +11,7 @@ if '@'in email_supplied:
 else:
     print('The email supplied is invalid')
 
-print(f"name:{name},domain:{email}")
+print(f"username:{name},domain:{email}")
 
 
 
