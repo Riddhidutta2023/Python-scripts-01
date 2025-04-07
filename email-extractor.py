@@ -3,7 +3,8 @@
 
 email_supplied=input('Write down the email address:  \n')
 print(f"You wrote {email_supplied}\n")
-
+name = None
+email = None
 if '@'in email_supplied:
     index_of_delimiter = email_supplied.index('@')
     name=email_supplied[0:index_of_delimiter]
